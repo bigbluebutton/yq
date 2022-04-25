@@ -1,4 +1,4 @@
-yq (3.4.1) UNRELEASED; urgency=medium
+yq (3.4.1bbb1) bionic; urgency=medium
 
   [ Mike Farah ]
   * Dont log mergePathStackToString - end up with duplicate logs
@@ -46,7 +46,7 @@ yq (3.4.1) UNRELEASED; urgency=medium
   [ Mike Farah ]
   * 3.4.1
 
- -- Calvin Walton <calvin.walton@blindsidenetworks.com>  Mon, 25 Apr 2022 14:09:07 +0000
+ -- Calvin Walton <calvin.walton@kepstin.ca>  Mon, 25 Apr 2022 14:09:07 +0000
 
 yq (3.3.2) focal; urgency=medium
 
