@@ -1,3 +1,53 @@
+yq (3.4.1) UNRELEASED; urgency=medium
+
+  [ Mike Farah ]
+  * Dont log mergePathStackToString - end up with duplicate logs
+  * Visit document node
+  * Refactored merge - will allow more sophisticated mergin
+  * Added merge alias test
+  * Can overwrite arrays when merging
+  * refactored array merge flags into a strategy
+  * better array merge strategy name
+  * Added comments merge strategy
+  * Update README.md
+  * Lib version bumps
+  * Use latest go-lang
+  * Keep comments when using the write commandt o update values
+  * Removed doctools
+  * Can create new yaml files using scripts again
+  * Version 3.2.3
+  * Fixing version stuffup - now 3.3.4
+  * Added Alpine Linux instructions
+  * More info on other installation methods
+  * Force static linking
+  * Convert to JSON now handles non string keys
+  * Merge master fix
+  * New line in docs for better readability
+  * Bumping minor version to indicate new merge features and slight backwards incompatibility
+  * Added array update merge example
+  * Explode anchors now applies to map keys too
+  * Set STDOUT to default out when printing via cobra
+  * Fixed potential npe
+  * Update README.md
+  * Update README.md
+  * Added checksum hashes order to release
+  * Updated install instructions, added wget
+  * Show errors on validate
+  * Update README.md
+
+  [ Peter Benjamin ]
+  * fix(image): bump alpine image minor version
+
+  [ Morgan Bazalgette ]
+  * keep order of keys when json marshalling
+  * fix tests
+  * add test for key order
+
+  [ Mike Farah ]
+  * 3.4.1
+
+ -- Calvin Walton <calvin.walton@blindsidenetworks.com>  Mon, 25 Apr 2022 14:09:07 +0000
+
 yq (3.3.2) focal; urgency=medium
 
   * Bug fix: existStatus bug (#459)
